@@ -1,6 +1,3 @@
-// this is comment 
-console.log('Some changes.');
-
 const express = require('express')
 const hbs = require('hbs')
 const fs = require('fs')
@@ -40,7 +37,7 @@ hbs.registerHelper('screamIt', (text) => {
 
 app.get('/', (req, res) => {
     res.render('home.hbs', {
-        welcomeMessage : 'Welcome to my website!',
+        welcomeMessage : 'Welcome to my website GCP!',
         pageTitle: 'Home Page'
     })
 })
